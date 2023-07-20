@@ -1,0 +1,36 @@
+
+html{
+    background: rgb(119,113,221);
+    background-image: url(./sources/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1{
+    position: absolute;
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    left: 450px;
+    top: -30px;
+    
+    width: 350px;
+}
+article{
+    padding-top: 50px;
+    padding-left: 356px;
+    
+
+}
+iframe{
+    border-radius: 20px;
+}
+h2{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.grid-container{
+    grid-template-columns: auto auto auto auto auto;
+    display: grid;
+}
