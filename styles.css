@@ -1,0 +1,89 @@
+html{
+  background-image:url(./sources/back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+}/*Fondo y diferentes fuentes*/
+h3{
+  color: rgba(212,122,110,255);
+}/*color de el texto*/
+#descripcion{
+  margin-top: -1em;
+  font-size: 0.9em;
+}/*posicion y tamaño de la descripcion*/
+.grid-container{  
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: grid;
+  height:fit-content;
+  width:40em;
+  grid-template-columns: auto auto auto auto auto;
+  border-radius: 10px;
+}/*ajustes generales del container*/
+.grid-item{
+  border-radius: 20px;
+  background-color: rgba(19,19,18,255);
+  color: rgba(214,179,172,255);
+  text-align: center;
+  padding: 1.25em;
+  margin: 3px; 
+  transition: 0.3s;
+}/*ajustes generales del grid*/
+.grid-desc{
+  position: absolute;
+  left: 36%;
+  top: 40%;
+  width: 22.75em;
+  height: 6.795em;
+  text-align: left;
+}/*posicion del cuadro de descripcion*/
+#spam{
+  margin-top: -1em;
+  font-size: 0.6em;
+  
+  
+}
+#ds-name{
+  position: absolute;
+  top: 20%;
+  left: 69%;
+  color: azure;
+  font-size: medium;
+}
+.grid-spam{
+  position: absolute;
+  top: 260px;
+}
+.rt{
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+}
+.me{
+  width:258.5%;
+}
+.logo{
+  filter: invert();
+}
+#pfp-ico{
+  border-radius: 50%;
+  padding-top: 1em;
+}
+#github:hover{
+  background-color: rgba(84,38,115,255);
+}
+#steam:hover{
+  background-color: rgba(18,108,158,255);
+}
+
+#telegram:hover{
+  background-color: rgba(229, 87, 87, 255);
+}
+#discord:hover{
+  background-color: rgba(18,108,158,255);
+}
