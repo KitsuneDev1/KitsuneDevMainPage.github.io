@@ -71,7 +71,7 @@ h3{
   filter: invert();
 }
 #pfp-ico{
-  border-radius: 50%;
+  border-radius: 20%;
   padding-top: 1em;
 }
 #github:hover{
